@@ -52,3 +52,13 @@ menu ul li.active a::before {
   width: 20px;
   transition: all 0.25s;
 }
+.lastMenu{
+    margin-top: auto;
+}
+
+@media only screen and (max-width:525px){
+    menu{
+        min-width: 68px;
+        width: 68px;
+    }
+}
