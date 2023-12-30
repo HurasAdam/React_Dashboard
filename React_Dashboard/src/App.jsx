@@ -6,8 +6,8 @@ function App() {
  
 
   return (
-<div className="app">
-APP
+<div className="App">
+
 <Menu/>
 </div>
   )
