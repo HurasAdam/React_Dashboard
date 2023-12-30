@@ -1,6 +1,7 @@
 
 import './App.css'
-import Menu from './components/menu/Menu'
+import {Container} from './components/container/Container'
+import {Menu} from './components/menu/Menu'
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
 <div className="App">
 
 <Menu/>
+<Container/>
 </div>
   )
 }
