@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { useEffect } from "react";
 
-function Menu() {
+export function Menu() {
   useEffect(() => {
     const mainMenuLi = document
       .getElementById("mainMenu")
@@ -45,4 +45,4 @@ this.classList.add('active')
   );
 }
 
-export default Menu;
+ 
